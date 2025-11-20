@@ -1,6 +1,6 @@
 # Open Source Fingertip Resources for "Power to Precision" Project
 
-[Project Webiste](https://jianglongye.com/power-to-precision/) | [arXiv](https://arxiv.org/abs/2511.13710) | [X (Summary)](https://x.com/jianglong_ye/status/1990540705035624817) 
+[Project Webiste](https://jianglongye.com/power-to-precision/) | [arXiv](https://arxiv.org/abs/2511.13710) | [X (Summary)](https://x.com/jianglong_ye/status/1990540705035624817) | [X (Hardware)](https://x.com/laiiwei/status/1991581235567816910)
 
 Boost your dexterous hand’s manipulation ability — almost for free.
 
@@ -91,7 +91,7 @@ After starting the script, you can press keyboard `z` and `x` to make fingers op
 
 Since each real hand's calibration differs to each other, the provided control sequence may not be the best when deploying to your real hand. You may minorly adjust the control sequence to let it pinch better on your real hand based on the observation. In the `examples/example_xhand.py`, you can adjust it in line 88 of the file.
 
-<mark><b>! high contact between fingers</b></mark>
+<mark><b>! important: high contact between fingers</b></mark>
 
 Excessive contact between the thumb and index finger may damage the motors. Please limit the closing angle to ensure that, in the fully closed state, neither motor applies excessive force.
 
