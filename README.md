@@ -1,5 +1,7 @@
 # Open Source Fingertip Resources for "Power to Precision" Project
 
+[Project Webiste](https://jianglongye.com/power-to-precision/) | [arXiv](https://arxiv.org/abs/2511.13710) | [X (Summary)](https://x.com/jianglong_ye/status/1990540705035624817) 
+
 Boost your dexterous hand’s manipulation ability — almost for free.
 
 This repo offers fully open-source, 3D-printable fingertip *design geometry* and *control sequences* that instantly enhance fine-manipulation skills, enabling your dexterous hand to handle smaller and more delicate objects.
@@ -74,7 +76,7 @@ We use *XHand* and *Bambu studio* as an example.
 
 We use *XHand*'s API to test the hand. Install them according to official docs. We'll control xhand by the script `examples/example_xhand.py`. Run by:
 
-```py
+```bash
 # apart from the XHand's SDK, install necessary packages:
 # pip install numpy pynput
 python examples/example_xhand.py
@@ -86,11 +88,11 @@ After starting the script, you can press keyboard `z` and `x` to make fingers op
   <img src="figs/final_results.gif" width="300">
 </p>
 
-==**! important: calibration**==
+<span style="background-color: yellow"><b>! important: calibration</b></span>
 
 Since each real hand's calibration differs to each other, the provided control sequence may not be the best when deploying to your real hand. You may minorly adjust the control sequence to let it pinch better on your real hand based on the observation. In the `examples/example_xhand.py`, you can adjust it in line 88 of the file.
 
-==**! important: high contact between fingers**==
+<span style="background-color: yellow"><b>! high contact between fingers</b></span>
 
 Excessive contact between the thumb and index finger may damage the motors. Please limit the closing angle to ensure that, in the fully closed state, neither motor applies excessive force.
 
