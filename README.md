@@ -87,12 +87,11 @@ After starting the script, you can press keyboard `z` and `x` to make fingers op
 <p align="center">
   <img src="figs/final_results.gif" width="300">
 </p>
-
-<span style="background-color: yellow"><b>! important: calibration</b></span>
+<mark><b>! important: calibration</b></mark>
 
 Since each real hand's calibration differs to each other, the provided control sequence may not be the best when deploying to your real hand. You may minorly adjust the control sequence to let it pinch better on your real hand based on the observation. In the `examples/example_xhand.py`, you can adjust it in line 88 of the file.
 
-<span style="background-color: yellow"><b>! high contact between fingers</b></span>
+<mark><b>! high contact between fingers</b></mark>
 
 Excessive contact between the thumb and index finger may damage the motors. Please limit the closing angle to ensure that, in the fully closed state, neither motor applies excessive force.
 
